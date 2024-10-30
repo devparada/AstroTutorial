@@ -1,0 +1,3 @@
+Para simular la base de datos en base a un JSON
+
+json-server --watch db.json
