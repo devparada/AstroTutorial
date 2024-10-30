@@ -1,11 +1,12 @@
 ---
+import { Button } from "../components/Button";
 import DefaultLayout from "../layouts/DefaultLayout.astro";
-export const prerender = false
+export const prerender = false;
 ---
 
 <DefaultLayout>
   <h1 class="text-center text-3xl font-bold">Bienvenido a about</h1>
-
+  <Button client:visible />
   <style>
     main {
       margin: auto;
